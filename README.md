@@ -59,7 +59,7 @@
   * 모두> git pull --all
   * 충돌예방> 1commit 2pull 3push
   * 충돌시> git add <파일이름>, git commit -m "메시지"
-  * git pull --rebase origin main (merge 대신 rebase.)
+  * git pull --rebase origin main (merge 대신 rebase. 단순충돌 해결 좋음.)
     * 1) 원격브랜치(origin/main) 브랜치의 (타인의) 변경사항을 가져와 적용.
     * 2) 현재 로컬브랜치(main 등)에서 작업한 커밋을 새로 적용.(=이 시점 이후로)
     * 3) 로컬브랜치는 origin/main브랜치 위로 위치이동(= 중간에 병합 커밋 미생성) 커밋 기록 깔끔 (선형적 유지).
