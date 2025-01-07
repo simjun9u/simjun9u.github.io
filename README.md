@@ -19,10 +19,10 @@
 * 새 프로젝트 생성
   * Github에서 New Repository 클릭, Create repository.
   * 로컬에 클론>
-   * [SSH방식인증. Key] git clone git@github.com:username/repository.git
-   * [https방식인증. ID PwToken] git clone https://github.com/user/repo.git 
+    * [SSH방식인증. Key] git clone git@github.com:username/repository.git
+    * [https방식인증. ID PwToken] git clone https://github.com/user/repo.git 
 * 복사
-  * 클론> 
+   * 클론> 
 
 ### Branch
 * 원격저장소 확인> 또는(URL, /user/repository.git) git remote -v
